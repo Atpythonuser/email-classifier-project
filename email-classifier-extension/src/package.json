@@ -1,0 +1,12 @@
+ {
+  "name": "email-classifier-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension for email classification and CAD URL detection.",
+  "scripts": {
+    "build": "echo 'Add build commands here if using webpack/etc.'"
+  },
+  "devDependencies": {
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
