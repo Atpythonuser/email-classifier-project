@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Email Classifier Extension",
+  "version": "1.0",
+  "description": "Classify emails and detect CAD URLs using a backend API.",
+
+  "permissions": ["activeTab", "storage"],
+
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+
+  "action": {
+    "default_popup": "src/UI/popup.html",
+    "default_title": "Email Classifier"
+  }
+}

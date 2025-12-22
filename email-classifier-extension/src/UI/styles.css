@@ -1,39 +1,22 @@
 body {
-  width: 350px;
-  padding: 15px;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  padding: 12px;
+  width: 420px;
 }
-
-h2 {
-  color: #333;
-}
-
-textarea {
+#emailText {
   width: 100%;
-  margin-bottom: 10px;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  font-family: monospace;
 }
-
 button {
-  background-color: #007bff;
+  background: #0b78ff;
   color: white;
   border: none;
-  padding: 8px 16px;
+  padding: 8px 14px;
+  border-radius: 6px;
   cursor: pointer;
-  border-radius: 4px;
 }
-
-button:hover {
-  background-color: #0056b3;
-}
-
-#results {
-  margin-top: 15px;
-}
-
-#results p {
-  margin: 5px 0;
-}
+#results { margin-top: 12px; }
+#results h3 { margin: 6px 0; }
+#labelList, #cadList { margin-top: 6px; white-space: normal; word-break: break-word; }

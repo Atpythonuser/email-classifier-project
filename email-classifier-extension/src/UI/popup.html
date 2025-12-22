@@ -1,21 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Email Classifier</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body { font-family: Arial; width: 300px; padding: 10px; }
+    textarea { width: 100%; height: 120px; }
+  </style>
 </head>
 <body>
+
   <h2>Email Classifier</h2>
-  <textarea id="email-input" placeholder="Paste email text here..." rows="5" cols="40"></textarea>
-  <br>
-  <button id="classify-btn">Classify</button>
-  <div id="results">
-    <h3>Results:</h3>
-    <p id="category">Category: </p>
-    <p id="cad-urls">CAD URLs: </p>
-  </div>
+
+  <textarea id="emailText" placeholder="Paste email text here..."></textarea>
+
+  <button id="classifyBtn">Classify</button>
+
+  <h3>Results:</h3>
+  <div><b>Labels:</b> <span id="labelList">None</span></div>
+  <div><b>CAD URLs:</b> <span id="cadList">None</span></div>
+
   <script src="popup.js"></script>
 </body>
 </html>
